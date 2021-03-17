@@ -13,12 +13,12 @@ namespace Example1
             Console.WriteLine("Enter a value for b:");
             b = Int32.Parse(Console.ReadLine());
             
-            System.Console.WriteLine($"Subtracting {a} - {b} equals {AddNumbers(a, b)} ");
+            System.Console.WriteLine($"Multiplying {a} * {b} equals {AddNumbers(a, b)} ");
         }
         public static int AddNumbers(int a, int b)
         {
-            // Changed addition into subtraction (Modification #1)
-            return a - b;
+            // Changed subtraction into multiplication (Modification #2)
+            return a * b;
         }
     }
 }
